@@ -18,6 +18,6 @@ linkT.addEventListener("click", function(event) {
     screenCover.classList.add("active");
 
     setTimeout(function() {
-        window.location.href="index.html";
+        window.location.href="start.html";
     }, 3000);
 });
