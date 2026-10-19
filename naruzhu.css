@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/way.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-color: black;
+
+    display: flex;
+
+
+}
+
+
+
+.container {
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+
+
+
+}
+
+
+
+A:link {
+    color: transparent;
+}
+
+
+A:visited {
+    color: #493a2e;
+}
+
+A:hover {
+    color: powderblue;
+}
+
+
+a {
+    font-size: 200%;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.message{
+    color: powderblue ;
+    font-size: 200%;
+    z-index: 1000;
+    animation: fadeIn 6s ease forwards;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+
+
+
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity: 1;}
+
+    to {opacity: 0;}
+}
+
+

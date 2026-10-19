@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+
+    background-image: url("images/favicomatic/favicon-32x32.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    pointer-events: none;
+    z-index: 9999;
+
+    transform: translate(-50%, -50%);
+}
+
+body {
+    cursor: none;
+}
+
+
+    .slot {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        text-align: end;
+        align-items: end;
+        color: red;
+        font-size: 300%;
+    }
+
+    body {
+        min-height: 100px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .container {
+        position: absolute;
+        inset: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+
+
+    }
+
+    .container img {
+        width: 50%;
+        height: auto;
+        display: block;
+        z-index: 1;
+    }
+
+    A:link {
+        color: transparent;
+    }
+
+
+    A:visited {
+        color: #493a2e;
+    }
+
+    A:hover {
+        color: rgb(241 241 242);
+    }
+
+
+    a {
+        font-size: 200%;
+        text-decoration: none;
+    }
+
