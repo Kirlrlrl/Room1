@@ -65,7 +65,7 @@ a {
 #screenCover {
     position: fixed;
     inset: 0;
-    background-color: green;
+    background-color: powderblue;
     opacity: 0;
     visibility: hidden;
     z-index: 9999;

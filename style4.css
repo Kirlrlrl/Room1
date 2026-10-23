@@ -31,12 +31,12 @@ A:visited {
 }
 
 A:hover {
-    color: rgb(255 0 0);
+    color: rgb(255 255 255);
 }
 
 
 a {
-    font-size: 200%;
+    font-size: 300%;
     text-decoration: none;
     text-align: center;
     align-items: center;

@@ -75,7 +75,7 @@ A {
 }
 
 #message {
-    color: red;
+    color: #faa5a5;
     font-size: 300%;
     display: none;
     position: fixed;
